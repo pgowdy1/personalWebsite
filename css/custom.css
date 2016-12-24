@@ -1,0 +1,264 @@
+/*
+Custom written CS to override bootstrap Agency Theme
+*/
+
+.fa-plus {
+    color: #0066cc;
+}
+
+.document-list {
+  padding-left: 0;
+}
+
+.contact-wrapper {
+  padding-top: 70px;
+}
+
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #cc6600;
+}
+
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #0066cc;
+  outline: none;
+}
+
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #cc6600;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #cc6600;
+}
+
+.navbar-custom .navbar-toggle {
+  background-color: #cc6600;
+  border-color: #cc6600;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.phone-number {
+  display: inline-block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  padding-left: 5px;
+  color: white;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+  color: white;
+  background-color: #cc6600;
+  border-color: #cc6600;
+}
+
+.phone-icon {
+  padding-bottom: 20px;
+}
+
+.email-icon {
+  padding-top: 20px;
+}
+
+.email-address {
+  display: inline-block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  padding-left: 5px;
+  color: white;
+}
+
+
+li.menu-item {
+  background-color: #cc6600;
+  border-color: #cc6600;
+  margin: 0 0 25px 0;
+}
+
+li.menu-item:hover {
+  color: #0066cc;
+}
+
+#facebook-icon, #instagram-icon,
+#github-icon, #linkedin-icon {
+  padding: 10px;
+}
+
+#send-message-button {
+  background: #cc6600;
+  border: #cc6600;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #222222;
+  color: #0066cc;
+}
+
+section#contact .form-control {
+  color: #797979;
+}
+
+section#contact .form-control:focus {
+  border-color: #cc6600;
+  box-shadow: none;
+}
+
+#send-message-button:hover {
+  color: #0066cc;
+}
+
+#tellmemore-button {
+  background: #cc6600;
+  border: #cc6600;
+}
+
+#tellmemore-button:hover {
+  color: #0066cc;
+}
+
+#skills-heading-left {
+  font-family: 'Space Mono', monospace;
+  font-size: 25px;
+  display: inline-block;
+  padding-right: 50px;
+  color: #cc6600;
+}
+
+#skills-heading-right {
+  font-family: 'Space Mono', monospace;
+  font-size: 25px;
+  display: inline-block;
+  padding-left: 50px;
+  color: #cc6600;
+}
+
+.jumbotron {
+  background-color: #808080;
+  height: 350px;
+}
+
+#socialmedia-button {
+  color: #cc6600;
+}
+
+#download-resume {
+  width: 250px;
+}
+
+#download-references {
+  width: 250px;
+}
+
+#download-transcript {
+  width: 250px;
+}
+
+.fa-circle {
+  color: #cc6600;
+}
+
+.am-hover:hover {
+  color: #0066cc;
+}
+
+#instagram-icon:hover {
+  color: #0066cc;
+}
+
+#facebook-icon:hover {
+  color: #0066cc;
+}
+
+.document-list {
+  list-style-type: none;
+
+}
+
+#github-icon:hover {
+  color: #0066cc;
+}
+
+#linkedin-icon:hover {
+  color: #0066cc;
+}
+
+#competency-check {
+  font-family: 'Space Mono', monospace;
+  font-size: 25px;
+  display: inline-block;
+}
+
+#check-mark {
+  color: green;
+}
+
+.table-heading {
+  font-family: 'Space Mono', monospace;
+  color: #cc6600
+}
+
+.table {
+  text-align: left;
+  vertical-align: bottom;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: #cc6600;
+}
+::selection {
+  text-shadow: none;
+  background: #cc6600;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #cc6600;
+}
+
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #606060;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #606060;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #606060;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #606060;
+}
