@@ -128,6 +128,13 @@ section#contact .form-control:focus {
   border: #cc6600;
 }
 
+section#contact {
+  background-color: #222222;
+  background-image: url('../img/networks_contact_me.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 #tellmemore-button:hover {
   color: #0066cc;
 }
