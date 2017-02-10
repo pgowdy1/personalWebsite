@@ -155,9 +155,13 @@ section#contact {
   color: #cc6600;
 }
 
-.jumbotron {
+section#team .jumbotron {
   background-color: #808080;
   height: 350px;
+}
+
+section#projects .jumbotron {
+  background-color: #808080;
 }
 
 #socialmedia-button {
