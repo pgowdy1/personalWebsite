@@ -7,273 +7,372 @@ Custom written CS to override bootstrap Agency Theme
 }
 
 .document-list {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .contact-wrapper {
-  padding-top: 70px;
+    padding-top: 70px;
 }
 
-.navbar-custom .navbar-nav > .active > a {
-  border-radius: 0;
-  color: white;
-  background-color: #cc6600;
+.navbar-custom .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: #cc6600;
 }
 
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus {
-  color: #0066cc;
-  outline: none;
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
+    color: #0066cc;
+    outline: none;
 }
 
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
-  color: white;
-  background-color: #cc6600;
+.navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: #cc6600;
 }
 
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
-  color: #cc6600;
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
+    color: #cc6600;
 }
 
 .navbar-custom .navbar-toggle {
-  background-color: #cc6600;
-  border-color: #cc6600;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  color: white;
-  font-size: 12px;
+    background-color: #cc6600;
+    border-color: #cc6600;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
 }
 
 .phone-number {
-  display: inline-block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  padding-left: 5px;
-  color: white;
+    display: inline-block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    color: white;
 }
 
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-  color: white;
-  background-color: #cc6600;
-  border-color: #cc6600;
+.btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
+    color: white;
+    background-color: #cc6600;
+    border-color: #cc6600;
 }
 
 .phone-icon {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .email-icon {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 .email-address {
-  display: inline-block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 19px;
-  padding-left: 5px;
-  color: white;
+    display: inline-block;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    padding-left: 5px;
+    color: white;
 }
 
-
 li.menu-item {
-  background-color: #cc6600;
-  border-color: #cc6600;
-  margin: 30px 0 20px 0;
+    background-color: #cc6600;
+    border-color: #cc6600;
+    margin: 30px 0 20px 0;
 }
 
 li.menu-item:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
-#facebook-icon, #instagram-icon,
-#github-icon, #linkedin-icon, #twitter-icon {
-  padding: 10px;
+#facebook-icon, #instagram-icon, #github-icon, #linkedin-icon, #twitter-icon {
+    padding: 10px;
 }
 
 #send-message-button {
-  background: #cc6600;
-  border: #cc6600;
+    background: #cc6600;
+    border: #cc6600;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-  background-color: #222222;
-  color: #0066cc;
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
+    background-color: #222222;
+    color: #0066cc;
 }
 
 section#contact .form-control {
-  color: #797979;
+    color: #797979;
 }
 
 section#contact .form-control:focus {
-  border-color: #cc6600;
-  box-shadow: none;
+    border-color: #cc6600;
+    box-shadow: none;
 }
 
 #send-message-button:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
 #tellmemore-button {
-  background: #cc6600;
-  border: #cc6600;
+    background: #cc6600;
+    border: #cc6600;
 }
 
 section#contact {
-  background-color: #222222;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-color: #222222;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #tellmemore-button:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
-#skills-heading-left {
-  font-family: 'Space Mono', monospace;
-  font-size: 25px;
-  display: inline-block;
-  padding-right: 50px;
-  color: #cc6600;
-}
-
-#skills-heading-right {
-  font-family: 'Space Mono', monospace;
-  font-size: 25px;
-  display: inline-block;
-  padding-left: 50px;
-  color: #cc6600;
+@media screen and (max-width:768px) {
+    #skills-heading-right {
+        padding-bottom: 30px;
+    }
 }
 
 section#team .jumbotron {
-  background-color: #808080;
-  height: 350px;
+    background-color: #808080;
+    height: inherit;
 }
 
 section#projects .jumbotron {
-  background-color: #808080;
+    background-color: #808080;
 }
 
 #socialmedia-button {
-  color: #cc6600;
+    color: #cc6600;
 }
 
-#download-resume {
-  width: 250px;
+.card-image {
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid black;
 }
 
-#download-references {
-  width: 250px;
+.grow {
+    transition: all .1s ease-in-out;
 }
 
-#download-transcript {
-  width: 250px;
-  display: none;
+.grow:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.grow-nopoint {
+    transition: all .1s ease-in-out;
+}
+
+.grow-nopoint:hover {
+    transform: scale(1.1);
+}
+
+.resume-button {
+    padding-top: 37px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.jobdoc-button {
+    min-width: 250px;
+    min-height: 80px;
+    background-color: #CC6600;
+    border-color: #CC6600;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card {
+    border-color: black;
+    border-width: thin;
+}
+
+.card-button {
+    background-color: #CC6600;
+    border-color: #CC6600;
+}
+
+.card-button:hover {
+    background-color: #CC6600;
+    border-color: #CC6600;
+    color: #0066cc;
+}
+
+.jobdoc-button:hover {
+    background-color: #CC6600;
+    border-color: #CC6600;
+    color: #0066cc;
+}
+
+.contact-jumbo {
+    min-height: 360px;
+}
+
+@media screen (min-width: 768px) and (max-width: 1100px) {
+    .jobdoc-button {
+        display: table-cell;
+    }
+}
+
+.timeline::before {
+    background-color: #f1f1f1;
+}
+
+.timeline>li .timeline-image {
+    background-color: #f1f1f1;
+}
+
+.border-button {
+    background-color: #f1f1f1;
+    color: #333333;
+    position: relative;
+    border-color: #D1C9C9;
+}
+
+.border-button:hover {
+    background-color: #f1f1f1;
+    color: #333333;
+    position: relative;
+    border-color: #D1C9C9;
+    cursor: default;
+}
+
+.border-button-div {
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .border-button-div {
+        text-align: center;
+    }
+}
+
+.timeline>li .timeline-image {
+    border: 7px solid #cec6c6;
 }
 
 .fa-circle {
-  color: #cc6600;
+    color: #cc6600;
 }
 
 .am-hover:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
 #instagram-icon:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
 #facebook-icon:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
 #twitter-icon:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
 .document-list {
-  list-style-type: none;
-
+    list-style-type: none;
 }
 
 #github-icon:hover {
-  color: #0066cc;
+    color: #0066cc;
 }
 
 #linkedin-icon:hover {
-  color: #0066cc;
+    color: #0066cc;
+}
+
+.novice-heading {
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+}
+
+.expert-heading {
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+}
+
+.skills-heading-left {
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    padding-bottom: 20px;
 }
 
 #competency-check {
-  font-family: 'Space Mono', monospace;
-  font-size: 25px;
-  display: inline-block;
+    font-family: 'Space Mono', monospace;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.competency-check {
+    height: inherit;
+    vertical-align: middle;
 }
 
 #check-mark {
-  color: green;
+    color: green;
 }
 
 .table-heading {
-  font-family: 'Space Mono', monospace;
-  color: #cc6600
+    font-family: 'Space Mono', monospace;
+    color: #cc6600
 }
 
 .table {
-  text-align: left;
-  vertical-align: bottom;
+    text-align: left;
+    vertical-align: bottom;
 }
 
 ::-moz-selection {
-  text-shadow: none;
-  background: #cc6600;
+    text-shadow: none;
+    background: #cc6600;
 }
+
 ::selection {
-  text-shadow: none;
-  background: #cc6600;
+    text-shadow: none;
+    background: #cc6600;
 }
+
 img::selection {
-  background: transparent;
+    background: transparent;
 }
+
 img::-moz-selection {
-  background: transparent;
+    background: transparent;
 }
+
 body {
-  webkit-tap-highlight-color: #cc6600;
+    webkit-tap-highlight-color: #cc6600;
 }
 
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #606060;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #606060;
 }
+
 section#contact :-moz-placeholder {
-  /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #606060;
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #606060;
 }
+
 section#contact ::-moz-placeholder {
-  /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #606060;
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #606060;
 }
+
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #606060;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #606060;
 }
