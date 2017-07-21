@@ -86,7 +86,7 @@ Custom written CS to override bootstrap Agency Theme
 li.menu-item {
   background-color: #cc6600;
   border-color: #cc6600;
-  margin: 0 0 25px 0;
+  margin: 30px 0 20px 0;
 }
 
 li.menu-item:hover {
@@ -94,7 +94,7 @@ li.menu-item:hover {
 }
 
 #facebook-icon, #instagram-icon,
-#github-icon, #linkedin-icon {
+#github-icon, #linkedin-icon, #twitter-icon {
   padding: 10px;
 }
 
@@ -130,7 +130,6 @@ section#contact .form-control:focus {
 
 section#contact {
   background-color: #222222;
-  background-image: url('../img/networks_contact_me.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -178,6 +177,7 @@ section#projects .jumbotron {
 
 #download-transcript {
   width: 250px;
+  display: none;
 }
 
 .fa-circle {
@@ -193,6 +193,10 @@ section#projects .jumbotron {
 }
 
 #facebook-icon:hover {
+  color: #0066cc;
+}
+
+#twitter-icon:hover {
   color: #0066cc;
 }
 
