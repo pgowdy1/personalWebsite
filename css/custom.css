@@ -49,6 +49,7 @@ Custom written CS to override bootstrap Agency Theme
     font-size: 20px;
     padding-left: 5px;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
@@ -71,6 +72,7 @@ Custom written CS to override bootstrap Agency Theme
     font-size: 19px;
     padding-left: 5px;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 li.menu-item {
@@ -171,6 +173,11 @@ section#projects .jumbotron {
     padding-top: 37px;
     padding-bottom: 80px;
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.references-button {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .jobdoc-button {
@@ -191,6 +198,7 @@ section#projects .jumbotron {
 .card-button {
     background-color: #CC6600;
     border-color: #CC6600;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .card-button:hover {
@@ -352,6 +360,11 @@ section#contact ::-webkit-input-placeholder {
     text-transform: uppercase;
     font-weight: 700;
     color: #606060;
+}
+
+section#contact .section-heading {
+    font-size: 72px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 section#contact :-moz-placeholder {
